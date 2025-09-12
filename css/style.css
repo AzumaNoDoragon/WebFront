@@ -1,0 +1,60 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #d3d3d3;
+    color: #222;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    text-decoration: underline; 
+    font-style: italic; 
+}
+
+#pic {
+    display: block;
+    margin: 0 auto;
+}
+
+#habilidade-java {
+    color: #0066cc;
+    font-weight: bold; 
+}
+
+p, dt {
+    margin: 1vw;
+}
+
+.destaque {
+    font-size: 1.2em;
+    font-style: oblique; 
+    background-color: #e0f7fa;
+    padding: 10px;
+    border-left: 4px solid #00796b;
+}
+
+dd[UTFPR="true"] {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.titulo-principal {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2em;
+    color: #004d40;
+}
+
+.localizacao {
+    color: #555;
+}

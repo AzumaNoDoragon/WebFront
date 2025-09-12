@@ -6,77 +6,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Gabriel Santos Afini da Silva</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fonte externa do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:ital,wght@1,400&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <h1>Gabriel Santos Afini da Silva</h1>
+    <header id="topo">
+        <h1 class="titulo-principal">Gabriel Santos Afini da Silva</h1>
         <figure>
-            <img src="assets/img/Gabriel.jpeg" alt="Foto de Perfil" width="100">
+            <img id="pic" src="assets/img/Gabriel.jpeg" alt="Foto de Perfil" width="100">
         </figure>
         <ul>
-            <li><img src="assets/figs/mail.png"><strong>E-mail:</strong> <a
-                    href="mailto:gsilva.2020@alunos.utfpr.edu.br">gsilva.2020@alunos.utfpr.edu.br</a></li>
-            <li><img src="assets/figs/LinkedIn.png"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/seu-perfil"
-                    target="_blank">linkedin.com/in/seu-perfil</a></li>
-            <li><img src="assets/figs/pin.png">Cornélio Procópio, Paraná</li>
+            <li><img src="assets/figs/mail.png"><strong>E-mail:</strong> <a href="mailto:gsilva.2020@alunos.utfpr.edu.br">gsilva.2020@alunos.utfpr.edu.br</a></li>
+            <li><img src="assets/figs/LinkedIn.png"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/seu-perfil" target="_blank">linkedin.com/in/seu-perfil</a></li>
+            <li class="localizacao"><img src="assets/figs/pin.png">Cornélio Procópio, Paraná</li>
         </ul>
     </header>
 
-    <section>
-        <h2>Resumo</h2>
-        <p>Sou estudante de Engenharia de Software na UTFPR-CP e apaixonado por tecnologia, aprendizado contínuo e
-            impacto social. Gosto de transformar ideias em soluções práticas, seja com código, projetos de extensão ou
-            iniciativas culturais.</p>
-        <p>Tenho experiência com Python, orientação a objetos, APIs REST, testes automatizados, mineração de dados e
-            banco de dados com MySQL. Já participei de eventos como o NLW Connect (Rocketseat) e desenvolvi projetos
-            acadêmicos e pessoais nas áreas de robótica, backend e fiquei em 2º lugar no hackathon Copel.</p>
+    <section class="resumo">
+        <h2 class="destaque">Resumo</h2>
+        <p>Sou estudante de Engenharia de Software na UTFPR-CP e apaixonado por tecnologia, aprendizado contínuo e impacto social.</p>
+        <p>Tenho experiência com <span class="tecnologia">Python</span>, orientação a objetos, APIs REST, testes automatizados, mineração de dados e banco de dados com MySQL.</p>
     </section>
 
     <section>
-        <h2>ODS que pretendo contribuir</h2>
+        <h2 class="destaque">ODS que pretendo contribuir</h2>
         <figure>
             <img src="assets/img/SDG-10.svg" alt="Imagem ODS 10" width="200">
-
-            <figcaption>
-                ODS 10 - Redução das Desigualdades
-            </figcaption>
+            <figcaption>ODS 10 - Redução das Desigualdades</figcaption>
         </figure>
     </section>
 
     <section>
-        <h2>Habilidades</h2>
+        <h2 class="destaque">Habilidades</h2>
         <ol>
             <li>Robot Process Automation</li>
-            <li>Java Backend</li>
+            <li id="habilidade-java">Java Backend</li>
             <li>Python</li>
         </ol>
     </section>
 
     <section>
-        <h2>Educação</h2>
+        <h2 class="destaque">Educação</h2>
         <dl>
             <dt>Técnico em Açúcar e Álcool</dt>
             <dd>ETEC - SP</dd>
             <dd>2016 - 2017</dd>
             <dt>Graduação em Engenharia de Software</dt>
-            <dd>UTFPR-CP</dd>
+            <dd UTFPR="true">UTFPR-CP</dd>
             <dd>2024 - 2027</dd>
         </dl>
     </section>
 
     <section>
-        <h2>Hobbies</h2>
+        <h2 class="destaque">Hobbies</h2>
         <ul>
             <li>Jogar</li>
             <li>Cultivo de plantas</li>
-            <li>Assistir filmes e series</li>
+            <li>Assistir filmes e séries</li>
         </ul>
-
     </section>
 
     <section>
-        <H2>Links Adicionais</H2>
+        <h2 class="destaque">Links Adicionais</h2>
         <ul>
             <li><a href="https://github.com/AzumaNoDoragon">Perfil do GitHub</a></li>
         </ul>
